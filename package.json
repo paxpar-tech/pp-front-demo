@@ -1,0 +1,16 @@
+{
+  "name": "@paxpar-tech/pp-front",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "upgrade": "npx npm-check-updates -i -p bun"
+  },
+  "devDependencies": {
+    "@paxpar-tech/pp-widgets-demo": "0.0.1"
+  }
+}
